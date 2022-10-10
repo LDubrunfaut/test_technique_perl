@@ -57,7 +57,7 @@ __END__
 
 =head2 PREREQUISITIES
 
-        Ce projet a ete developpe sur Windows Windows 10 Famille version 21H1 en
+        Ce projet a ete developpe sur Windows 10 Famille version 21H1 en
         utilisant Perl v5.32.1 via Strawberry Perl (https://strawberryperl.com/)
         qui permet d'utiliser Perl sur Windows dans un environement le plus proche
         possible d'un environement perl sous UNIX.
