@@ -9,7 +9,7 @@ sub count_file_elements{
     my ($file_to_read) = @_;
     # Vérification que le fichier n'est pas vide
     if (-z "$file_to_read") {
-        die "This is an empty file please give another one.\n";
+        die "This file is empty, input another.\n";
     }
     # Ouverture du fichier en lecture
     open(opened_file, '<', $file_to_read)
@@ -28,7 +28,7 @@ sub count_file_elements{
 }
 
 my $filename = $ARGV[0]
-   or die "usage: $0 Give an input file as argument. \n";
+   or die "usage: $0 Give an input file as argument.\n";
 
 #Appel à la fonction qui extrait les nombres de lignes, mots, caractères du fichier.
 my %hash_from_file = count_file_elements($filename);
